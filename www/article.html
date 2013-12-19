@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8" />
+
+		<title>Le procope : fiche lieu</title>
+  
+	</head>
+	
+	<body>
+	
+		<header>
+		<h1>Rétrospective</h1>
+		</header>
+		
+		<h2>Le Procope </h2>
+		<img id="bandeau" src="img/bandeau_procope.png" alt="photo du Procope" />
+		
+		<p class="adresse1">13 rue de l'Ancienne Comédie <br/>75006 PARIS <br/> Métros : 4 Odéon <a href="img/plan_metro.png">Voir plan du métro</a></p>
+
+		<p class="adresse2">01 40 46 79 00 <br/><a href="www.procope.com" alt="aller au site du Procope">www.procope.com</a></p>
+		
+		<p class="description">Le café Procope est un célèbre, et l'un des plus anciens cafés-restaurants de Paris. Il se situe 13 rue de l'Ancienne Comédie , dans le 6eme arrondissement. Il est également accessible par le charmant passage de la Cour du Commerce-Saint-André. Café d'artistes et d'intellectuels, il était fréquenté au XVIIIeme siècle par Voltaire, Diderot, et d'Alembert. Centre actif durant la la Révolution française, il reste longtemps un lieude rencontre d'écrivains et d'intellectuels (Musset, Verlaine, Anatole France), d'hommes politiques. D'ailleurs, vous pourrez admirer l'un des chapeaux de Napoléon, exposé dans l'entrée !</p>
+		
+		
+		<div id="frequentation">
+			<h3>Fréquenté par...</h3>
+			<ul>
+				<li>Voltaire</li>
+				<li>Rousseau</li>
+				<li>D'Alembert</li>
+				<li>Benjamin Franklin</li>
+			</ul>
+			<button>Je veux y aller !</button>
+		</div>
+		
+		
+		
+		
+		
+		
+		<h3>Notes utilisateurs :</h3><!-- ICI REQUETE POUR CALCULER LA MOYENNE DES NOTES DES UTILISATEURS-->
+		<form>
+			Ma note :<select name="manote">
+			<option value="1">5</option>
+			<option value="2" selected>4</option>
+			<option value="3">3</option>
+			<option value="4">2</option>
+			<option value="5">1</option>
+			<option value="6">0</option>
+			</select>
+		</form>
+		<!--WIDGET FACEBOOK LIKE-->
+		
+		<h3>Commentaires</h3>
+		<h4>Mon avis !</h4>
+		<!--ICI COMMENTAIRE NATHALIE-->
+
+		<div id="bugs">
+		<ul></ul>
+		</div>
+		
+		
+		<form>
+			Pseudo : <input type="text" name="pseudo"/><br/>
+			Titre de votre commentaire : <input type="text" name="titre"/><br/>
+			<textarea name="commentaire"></textarea><br/>
+			<input type="submit" value="Envoyer"/>
+		</form>
+		
+		
+		
+		<script src="js/zepto.min.js"></script>
+	<script src="js/index.js"></script>
+	<script>
+		app.initialize();
+	</script>
+	</body>
+	
+</html>
